@@ -13,7 +13,7 @@ var usersRouter = require('./routes/users');
 
 //configuracion de cors
 app.use(cors({
-  origin: 'https://habitos-frontend.vercel.app', // Permite solicitudes desde el frontend en el puerto 3001
+  origin: 'https://habitos-frontend.vercel.app', // Permite solicitudes
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization']
